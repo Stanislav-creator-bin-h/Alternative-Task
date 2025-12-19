@@ -1,0 +1,172 @@
+.lab3-wrapper {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  color: #111827;
+  min-height: calc(100vh - 64px);
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.lab3-wrapper .address-book-container {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 28px 32px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.lab3-wrapper h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: #111827;
+}
+
+.lab3-wrapper form h3 {
+  margin: 0 0 12px;
+  font-weight: 700;
+  color: #374151;
+}
+
+.lab3-wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.lab3-wrapper input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #111827;
+  transition: border 0.2s ease, background-color 0.2s;
+}
+
+.lab3-wrapper button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #6366f1;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s ease, opacity 0.2s;
+}
+
+.lab3-wrapper button:hover {
+  background-color: #4f46e5;
+}
+
+.lab3-wrapper button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.lab3-wrapper input:focus-visible,
+.lab3-wrapper button:focus-visible {
+  outline: 3px solid #6366f1;
+  outline-offset: 2px;
+}
+
+.lab3-wrapper .error {
+  color: #dc2626;
+  font-size: 0.85rem;
+  margin-top: -8px;
+}
+
+.lab3-wrapper .search-bar {
+  margin-bottom: 20px;
+}
+
+.lab3-wrapper .table-container {
+  overflow-x: auto;
+}
+
+.lab3-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background-color: #ffffff;
+  color: #111827;
+}
+
+.lab3-wrapper th,
+.lab3-wrapper td {
+  border: 1px solid #e5e7eb;
+  padding: 12px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.lab3-wrapper th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+.lab3-wrapper tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.lab3-wrapper td button {
+  margin: 0 4px;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+.lab3-wrapper td button:last-child {
+  background-color: #ef4444;
+}
+
+.lab3-wrapper td button:last-child:hover {
+  background-color: #dc2626;
+}
+
+.lab3-wrapper.dark .address-book-container {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.lab3-wrapper.dark h1,
+.lab3-wrapper.dark form h3 {
+  color: #ffffff;
+}
+
+.lab3-wrapper.dark input {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+.lab3-wrapper.dark form {
+  border-bottom: 1px solid #444;
+}
+
+.lab3-wrapper.dark table {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.lab3-wrapper.dark th,
+.lab3-wrapper.dark td {
+  border-color: #444;
+}
+
+.lab3-wrapper.dark th {
+  background-color: #2a2a2a;
+}
+
+.lab3-wrapper.dark tr:nth-child(even) {
+  background-color: #242424;
+}

@@ -1,0 +1,170 @@
+.lab2-wrapper {
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+  min-height: calc(100vh - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.lab2-wrapper .todo-container {
+  background: white;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 16px;
+  padding: 25px 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.lab2-wrapper h1 {
+  text-align: center;
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.lab2-wrapper form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.lab2-wrapper input[type="text"] {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+}
+
+.lab2-wrapper button {
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.lab2-wrapper button:hover {
+  background-color: #7c3aed;
+}
+
+.lab2-wrapper .search-bar {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.lab2-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lab2-wrapper li {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  gap: 8px;
+  transition: 0.2s ease;
+  color: black;
+}
+
+.lab2-wrapper li:hover {
+  background: #eef2ff;
+}
+
+.lab2-wrapper li span {
+  flex: 1;
+  font-size: 15px;
+  word-break: break-word;
+}
+
+.lab2-wrapper li span.completed,
+.lab2-wrapper li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.lab2-wrapper li button {
+  padding: 6px 10px;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.lab2-wrapper li button:first-of-type {
+  background-color: #f97316;
+}
+
+.lab2-wrapper li button:last-of-type {
+  background-color: #ef4444;
+}
+
+.lab2-wrapper .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.lab2-wrapper .pagination span {
+    color: #333;
+    font-weight: 500;
+}
+
+.lab2-wrapper .pagination button:disabled {
+  background-color: #d1d5db;
+  cursor: not-allowed;
+}
+
+
+.lab2-wrapper.dark .todo-container {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.lab2-wrapper.dark h1 {
+    color: #ffffff;
+}
+
+.lab2-wrapper.dark input[type="text"] {
+    background-color: #2d2d2d;
+    color: white;
+    border: 1px solid #444;
+}
+
+.lab2-wrapper.dark li {
+    background: #2d2d2d;
+    color: white;
+}
+
+.lab2-wrapper.dark li:hover {
+    background: #383838;
+}
+
+.lab2-wrapper.dark li span.completed,
+.lab2-wrapper.dark li.completed span {
+  color: #aaa;
+}
+  .lab2-wrapper.dark .pagination span {
+    color: #ffffff;
+}
+  .lab2-wrapper.dark .pagination button:disabled {
+    background-color: #444;
+    color: #888;
+}
