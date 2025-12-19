@@ -23,8 +23,5 @@
 ---
 
  🌳 Component (UI) Tree *
-
-<img width="1573" height="641" alt="Screenshot 2025-12-19 205126" src="https://github.com/user-attachments/assets/ecf30b52-dc07-497e-aa36-0d28f6a804cd" />
-
-
 ```
+<img width="1573" height="641" alt="Screenshot 2025-12-19 205126" src="https://github.com/user-attachments/assets/ecf30b52-dc07-497e-aa36-0d28f6a804cd" />
